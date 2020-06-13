@@ -13,7 +13,7 @@ int main(void){
     cout<<"Hola! Ingresa una palabra owo/: "<<"\n";
     cin>>palabra;
 
-    //Estaba malo porque el cero si lo cuenta pero como vacio, debes poner el otro :'3
+    //Estaba malo porque el cero si lo cuenta pero como vacio, debes poner el otro es decir 1 :'3
     string inicio= palabra.substr(0, 1);
     string final= palabra.substr(palabra.length()-1);
 
